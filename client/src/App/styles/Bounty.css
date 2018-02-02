@@ -18,3 +18,14 @@ button {
 .delete {
     background-color: #dd5041;
 }
+
+.edit-form {
+    width: 275px;
+    height: auto;
+    margin: 10px;;
+}
+
+.edit-form > button{
+    margin: 10px auto;
+    background-color: #dd5041;
+}

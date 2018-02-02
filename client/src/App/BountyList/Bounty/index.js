@@ -22,8 +22,7 @@ class Bounty extends Component {
         let { firstName, lastName, bountyAmount, living, type, _id, deleteBounty } = this.props;
         if (this.state.isEditing) {
             return (
-                <div>
-                    <h1>Edit Bounty</h1>
+                <div className="edit-form">
                     <Form {...this.props} options={{toggle: this.toggleEdit }}/>
                     <button onClick={this.toggleEdit}>Cancel</button>
                 </div>
