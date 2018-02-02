@@ -4,7 +4,7 @@ Celeste Robinson
 
 ## Objective
 
-Build a full stack CRUD APP. The user should be able to get, add, update and delete each individual bounty. When the app loads, it should automatically make a request to my server to ```GET``` a list of all existing bounties from my database. The main focus for this project was the backend. I built the frontend using React/Redux and the server and the database using Express, MongoDB, and Mongoose.
+Build a full stack CRUD APP. The user should be able to create, read, update and delete bounties. When the app loads, it should automatically make a request to my server to ```GET``` a list of all existing bounties from my database. The main focus for this project was the backend. I built the frontend using React/Redux and the server and the database using Node.js, Express, MongoDB, and Mongoose.
 
 ### Web View
 ![Web View](screenshots/web-view.png)
@@ -18,7 +18,7 @@ GitHub Repository: https://github.com/celesterobinson/bounty-hunter
 
 ## Technologies Used
 * HTML, CSS, React, Redux + Thunk, JavaScript, Axios
-* Express + Middleware, MongoDB, Mongoose
+* Node.js, Express + Middleware, MongoDB, Mongoose
 
 ## Code Examples
 
