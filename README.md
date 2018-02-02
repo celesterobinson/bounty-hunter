@@ -60,7 +60,7 @@ bountyRoute.delete("/:id", (req, res)=>{
 })
 ```
 
-Again we see the use of a mongoose method. By using ```.findByIdAndUpdate``` on a ```put``` request, the server can make request to update an item in the database, and recieve a response with the data updated. To make this work, the id and the ```req.body``` (from body-parser) must be passed into the method. In the callback function, the same process from delete is repeated. We provide an error if things go wrong, and then send the server the updated information.
+Again we see the use of a mongoose method. By using ```.findByIdAndUpdate``` on a ```put``` request, the server can make request to update an item in the database, and recieve a response with the data updated. To make this work, the id and the ```req.body``` (from body-parser) must be passed into the method. In the callback function, the same process from ```delete``` is repeated. We provide an error if things go wrong, and then send the server the updated information.
 ```
 bountyRoute.put("/:id", (req, res)=>{
     Bounty.findByIdAndUpdate(req.params.id, req.body, {new: true}, (err, updatedBounty)=>{
