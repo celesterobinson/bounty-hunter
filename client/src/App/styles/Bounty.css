@@ -1,0 +1,20 @@
+.bounty {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    width: 275px;
+    height: 300px;
+    border: 1px solid #222;
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.delete {
+    background-color: #dd5041;
+}

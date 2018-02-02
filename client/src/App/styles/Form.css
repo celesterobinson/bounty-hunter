@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    height: 350px;
+    
+}
+
+form > .text-input {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 3px;
+    height: 25px;
+    margin: 2px;
+}
+
+.form-wrapper {
+    padding-top: 100px;
+    grid-area: f;
+    height: 100%;
+    display: flex;
+    background-color: #222;
+    color: white;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+button {
+    margin: 10px;
+    border-radius: 3px;
+    width: 100px;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr 8fr;
+    grid-template-areas:
+        "h h"
+        "f l";
+    height: 100vh;        
+}
+    @media(max-width: 653px) {
+        .app-wrapper {
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+                "h"
+                "f"
+                "l";
+        }
+        .app-wrapper > h1 {
+            margin: 0;
+        }
+        form {
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .form-wrapper {
+            height: 275px;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+    }
+
+.app-wrapper > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: h;
+    background-color: #222;
+    color: white;
+    height: 100%;
+    margin-bottom: 20px;
+}
